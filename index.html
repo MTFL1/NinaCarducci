@@ -6,7 +6,7 @@
     <!--Ajout de min-->
     <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
     <!--Ajout de defer-->
-    <link rel="stylesheet" href="./assets/style.css" defer>
+    <link rel="stylesheet" href="./assets/style.min.css" defer>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
@@ -14,12 +14,48 @@
     <script src="./assets/bootstrap/bootstrap.bundle.min.js" defer></script>
     <!--Ajout de min & defer-->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="./assets/maugallery.js" defer></script>
-    <script src="./assets/scripts.js" defer></script>
+    <script src="./assets/maugallery.min.js" defer></script>
+    <script src="./assets/scripts.min.js" defer></script>
 	<!--Ajout de l'élément title -->
     <title>Nina Carducci : Photographe.</title>
     <meta name="description" content="Photographe professionnel spécialisé dans la capture de moments uniques et la création d'images mémorables. Découvrez mon portfolio et contactez-moi pour vos projets photographiques.">
 	<meta name="robots" content="index, follow">
+
+<!-- Schema.org : referencement local-->
+<script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Nina Carducci",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "68 avenue Alsace Lorraine",
+        "addressLocality": "Bordeaux",
+        "postalCode": "33200",
+        "addressRegion": "Nouvelle-Aquitaine",
+        "addressCountry": "France"
+      },
+      "telephone": "05 56 67 78 89",
+      "url": "https://nadau07.github.io/Nina_carducci/",
+      "description": "Photographe professionnel spécialisé dans la capture de moments uniques et la création d'images mémorables. Découvrez mon portfolio et contactez-moi pour vos projets photographiques.",
+      "openingHours": "Lun-Ven 10:00-19:00",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Samedi",
+          "opens": "fermé",
+          "closes": "fermé"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Dimanche",
+          "opens": "fermé",
+          "closes": "fermé"
+        }
+      ]
+    }
+    </script>
+
 </head>
 <body>
 <div class="top-header">
